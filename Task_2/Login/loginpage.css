@@ -1,0 +1,107 @@
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    
+}
+.email,.password{
+    position: relative;
+}
+.fa-envelope ,.fa-solid{
+    position: absolute;
+    left: 0;
+    margin: 7px 5px;
+    color: gray;
+   
+   
+}
+ 
+.form div{
+    margin-top: 10px;
+}
+.h2{
+    color: black;
+   
+}
+.new{
+    color:rgba(0, 0, 0, 0.719) ;
+}
+span a{
+    color: rgb(27, 27, 148);
+}
+.label,button{
+    display: block;
+}
+.input{
+    width:370px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    min-width: 90px;
+    padding-left: 25px;
+}
+.forget{
+    position: relative;
+}
+.forget a{
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    color:rgb(27, 27, 148) ;
+}
+.btn{
+    width:400px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    min-width: 80px;
+}
+.btn1{
+    background-color:rgb(27, 27, 148) ;
+    color: white;
+    font-size: 15px;
+    border-color:rgb(27, 27, 148) ;
+    border: none;
+    
+}
+.btn2{
+    color: gray;
+   background-color: white;
+    border: 1px solid gray;
+
+}
+.sign_up{
+    position: relative;
+   
+}
+.fa-google {
+background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+-webkit-text-fill-color: transparent;
+position: absolute;
+top: 0;
+font-size: 20px;
+margin-top: 5px;
+left: 115px;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+}
+.line{
+    flex:1;
+    height: 1px;
+    background-color: gray;
+}
+.text{
+    color: grey;
+    margin: 10px;
+}
+
